@@ -25,8 +25,8 @@ int main()
 	Mat trained_images,trained_classes;
 	vector<Vec4i> hierarchy;
 	vector<vector<Point> > vecpts;
-//	char[] digits = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
-//	int train_classes[10];
+	char[] digits = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
+	int train_classes[10];
 
 	training_orig=imread("training_numbers.png",1);
 
